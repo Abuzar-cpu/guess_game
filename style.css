@@ -1,0 +1,44 @@
+#main{
+
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#your{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: blue;
+    height: 20vh;
+    width: 20vw;
+    margin-right: 3vw;
+}
+
+#computer{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: blue;
+    height: 20vh;
+    width: 20vw;
+}
+
+#remaining{
+    margin: 1vh 0 0 29vw;
+    width: 40vw;
+    height: 10vh;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
