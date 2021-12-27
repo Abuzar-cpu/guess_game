@@ -6,7 +6,6 @@ document.getElementById("remaining").innerHTML = "Remainning chances: " + chance
 chances--;
 
 function userWon() {
-
     document.getElementById('computer').innerHTML = random;
     document.getElementById("remaining").style.backgroundColor = "lime";
     document.getElementById("remaining").innerHTML = "YOU WON!";
@@ -23,6 +22,8 @@ function reset() {
     random = Math.ceil(Math.random() * 10);
     chances = 10;
     document.getElementById("remaining").style.backgroundColor = "red";
+    document.getElementById("your").innerHTML = "Your choice will be here";
+    document.getElementById('computer').innerHTML = "Computer already chose the number)";
     won = false;
     lost = false;
 }
